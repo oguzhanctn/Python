@@ -10,7 +10,7 @@ nifiProcessGroupsURL=str(sys.argv[1]) + "/nifi-api/process-groups/root/process-g
 processGroupName_in=str(sys.argv[2])
 maxThresHoldSize_in=int(sys.argv[3])
 nifiHost = str(sys.argv[1])
-slackURL='https://hooks.slack.com/services/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'
+slackURL='Slack WebHook URL'
 
 # Get Data From a API URL
 def getURL(url):
